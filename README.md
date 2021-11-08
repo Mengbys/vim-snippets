@@ -1,5 +1,5 @@
 # My Cool Snippets
-- - -
+
 
 snipMate & UltiSnip Snippets
 ============================
