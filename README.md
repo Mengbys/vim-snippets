@@ -29,7 +29,8 @@ snippets by typing the name of a snippet hitting the expansion mapping.
   VimL, snipmate-snippets, engine sometimes behaves strange. Supports
   snippets/*
 - [github.com/Shougo/neosnippet](https://github.com/Shougo/neosnippet.vim):
-  VimL, supports snippets/* with some configuration.
+  VimL, supports 
+  snippets/* with some configuration.
 - [github.com/drmingdrmer/xptemplate](https://github.com/drmingdrmer/xptemplate):
   Totally different syntax, does not read snippets contained in this file, but
   it is also very powerful. It does not support vim-snippets (just listing it
