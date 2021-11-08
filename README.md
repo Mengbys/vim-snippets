@@ -27,6 +27,7 @@ snippets by typing the name of a snippet hitting the expansion mapping.
   python, supports all snippets in this repo.
 - [github.com/garbas/vim-snipmate](https://github.com/garbas/vim-snipmate):
   VimL, snipmate-snippets, engine sometimes behaves strange. Supports
+  
   snippets/*
 - [github.com/Shougo/neosnippet](https://github.com/Shougo/neosnippet.vim):
   VimL, supports 
