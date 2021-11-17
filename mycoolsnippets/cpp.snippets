@@ -1,0 +1,47 @@
+priority -48
+
+
+snippet main
+int main()
+{
+	${0}
+
+	return 0;
+}
+endsnippet
+
+snippet cpp
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	${0}
+
+	return 0;
+}
+endsnippet
+
+snippet for "for-loop"
+for(${1:var}; ${2:condition}; ${3:operation})
+{
+	$0
+}
+endsnippet
+
+snippet ec "explain in comment"
+/*****************************************************************************
+* ${1}
+*****************************************************************************/$0
+endsnippet
+
+snippet cl "class .. (class)"
+class ${1:`!p snip.rv = snip.basename or "name"`}
+{
+public:
+	${1/(\w+).*/$1/}(${2:arguments});
+
+private:
+	${0:/* data */}
+};
+endsnippet
